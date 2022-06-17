@@ -71,7 +71,7 @@ def updateJSON(correntRank):
     Returns:
         与当天历史榜单对比去重, 排序后的榜单信息字典
     '''
-    filename = datetime.today().strftime('%Y%m%d') + '.json'
+    filename = 'hot.json'
     filename = os.path.join(JSON_DIR, filename)
 
     # 文件不存在则创建
