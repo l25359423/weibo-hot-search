@@ -10,7 +10,7 @@ import utils
 
 
 BASE_URL = 'https://s.weibo.com'
-JSON_DIR = './raw'
+JSON_DIR = '../ares_forum/weibo-hot/'
 ARCHIVE_DIR = './archives'
 
 
