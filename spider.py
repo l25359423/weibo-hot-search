@@ -93,7 +93,7 @@ def updateJSON(correntRank):
         historyRank.items(), key=lambda item: item[1]['hot'], reverse=True)}
 
     # 更新当天榜单 json 文件
-    utils.save(filename, rank)
+    utils.save(filename, correntRank)
     return rank
 
 
